@@ -7,7 +7,7 @@ from utils import get_kafka_producer
 def produce_humidity_alerts(data) -> None:
     producer = get_kafka_producer()
 
-    my_name = "kari"
+    my_name = "karine"
     topic_name = f'{my_name}_humidity_alerts'
 
     try:

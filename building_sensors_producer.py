@@ -6,7 +6,7 @@ from utils import get_kafka_producer
 
 producer = get_kafka_producer()
 
-my_name = "kari"
+my_name = "karine"
 topic_name = f'{my_name}_building_sensors'
 
 

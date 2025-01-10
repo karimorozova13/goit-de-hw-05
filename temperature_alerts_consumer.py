@@ -15,7 +15,7 @@ consumer = KafkaConsumer(
     group_id='my_consumer_group_3'
 )
 
-my_name = "kari"
+my_name = "karine"
 topic_name = f'{my_name}_temperature_alerts'
 
 consumer.subscribe([topic_name])
